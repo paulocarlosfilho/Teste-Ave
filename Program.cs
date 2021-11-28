@@ -6,17 +6,19 @@ namespace Ave
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("----------------------------------------------------");
+
 
             //---------------------------------------------------------------------------------------
+
+            Console.WriteLine("----------------------------------------------------");
 
             Ave picaPau = new Ave("Godofredo", "Sim", "Pica Pau da Cabeça Vermelha");
 
             picaPau.Apresentar();
+            picaPau.Voar();
             picaPau.Bicar();
             picaPau.Voar();
-
+            
             Console.WriteLine("----------------------------------------------------");
 
             //---------------------------------------------------------------------------------------
